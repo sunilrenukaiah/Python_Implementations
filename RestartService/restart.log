@@ -1,0 +1,28 @@
+ 
+
+ **** Scheduled Job Started at : 2018-02-08 13:10:00.651811  **************
+Service Name size :  15   AdobeARMservice
+Restarting service Name :  AdobeARMservice
+Exception during restarting service (5, 'OpenSCManager', 'Access is denied.')
+Wait for 5 minutes to confirm , if the  ['AdobeARMservice']  service is running
+Checking status of service :  AdobeARMservice
+Recent Status :  Running
+SMTP -  192.168.20.4
+sender -  s.renukaiah@castsoftware.com
+receiver -  ['s.renukaiah@castsoftware.com']
+Successfully sent email
+ 
+
+ **** Scheduled Job Started at : 2018-02-08 13:12:42.165893  **************
+Service Name size :  31   AdobeARMservice,AdobeARMservice
+Restarting service Name :  AdobeARMservice
+Exception during restarting service (5, 'OpenSCManager', 'Access is denied.')
+Wait for 5 minutes to confirm , if the  ['AdobeARMservice', 'AdobeARMservice']  service is running
+Checking status of service :  AdobeARMservice
+Recent Status :  Running
+Checking status of service :  AdobeARMservice
+Recent Status :  Running
+SMTP -  192.168.20.4
+sender -  s.renukaiah@castsoftware.com
+receiver -  ['s.renukaiah@castsoftware.com']
+Successfully sent email

@@ -1,0 +1,42 @@
+Found " This class was automatically generated " in   D:\\Office\\Tools\\GeneratedCode\\Testing1.java
+Found " This file was auto-generated from " in   D:\\Office\\Tools\\GeneratedCode\\Testing3.java
+Found " ©Copyright " in   D:\\Office\\Tools\\GeneratedCode\\Testing3.java
+
+
+
+
+TOTAL occurences : 
+Text               count
+This file was auto-generated from              1
+This class was automatically generated              1
+©Copyright              1
+@Copyright              0
+Jax-RS                0
+
+
+
+Found " @Test " in   D:\\Office\\Tools\\GeneratedCode\\Testing1.java
+Found " @Mock " in   D:\\Office\\Tools\\GeneratedCode\\Testing3.java
+
+
+TOTAL occurences : 
+Text               count
+@Test                 1
+@Mock                 1
+
+
+
+
+
+TEST FOLDERS : 
+
+No folders found ending with Test 
+
+TARGET FOLDERS : 
+
+No folders found ending with target 
+
+MOCK FOLDERS : 
+
+No folders found ending with Mock 
+

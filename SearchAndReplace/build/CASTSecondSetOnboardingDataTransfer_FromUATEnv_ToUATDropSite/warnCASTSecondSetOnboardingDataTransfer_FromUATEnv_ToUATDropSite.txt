@@ -1,0 +1,18 @@
+missing module named resource - imported by posix, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+missing module named posix - imported by os, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+missing module named _posixsubprocess - imported by subprocess, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+missing module named 'org.python' - imported by pickle, xml.sax, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+missing module named readline - imported by cmd, code, pdb, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+missing module named _winreg - imported by platform, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+missing module named 'java.lang' - imported by platform, xml.sax._exceptions, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+missing module named vms_lib - imported by platform, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+missing module named termios - imported by tty, getpass, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+missing module named grp - imported by tarfile, shutil, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+missing module named pwd - imported by posixpath, tarfile, shutil, http.server, webbrowser, netrc, getpass, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+missing module named _dummy_threading - imported by dummy_threading, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+missing module named org - imported by copy, D:\Office\Tools\PNCTools\UC2\CASTSecondSetOnboardingDataTransfer_FromUATEnv_ToUATDropSite.py
+missing module named simplejson - imported by psycopg2._json

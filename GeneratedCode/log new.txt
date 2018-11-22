@@ -1,0 +1,172 @@
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\routemagic\\routemagic\\src\\SolutionInfo.cs
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\routemagic\\routemagic\\src\\RouteDebug\\Properties\\AssemblyInfo.cs
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\routemagic\\routemagic\\src\\RouteDebuggerDemoWeb\\Properties\\AssemblyInfo.cs
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\routemagic\\routemagic\\src\\RouteMagicDemo.Web\\Properties\\AssemblyInfo.cs
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\routemagic\\routemagic\\src\\UnitTests\\Properties\\AssemblyInfo.cs
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\jQuery.1.8.0\\Content\\Scripts\\jquery-1.8.0-vsdoc.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\jQuery.1.8.0\\Content\\Scripts\\jquery-1.8.0.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\jquery.cookie.1.0\\content\\Scripts\\jquery.cookie.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\jquery.mobile.1.1.1\\content\\Scripts\\jquery.mobile-1.1.1.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\jQuery.UI.Combined.1.8.22\\Content\\Scripts\\jquery-ui-1.8.22.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\jQuery.UI.Combined.1.8.22\\Content\\Scripts\\jquery-ui-1.8.22.min.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\jQuery.Validation.1.9.0.1\\Content\\Scripts\\jquery.validate-vsdoc.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\jQuery.Validation.1.9.0.1\\Content\\Scripts\\jquery.validate.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\jQuery.Validation.1.9.0.1\\Content\\Scripts\\jquery.validate.min.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\KoLite.1.0.4\\content\\scripts\\knockout.activity.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\Microsoft.AspNet.SignalR.JS.1.0.0-alpha2\\content\\Scripts\\jquery.signalR-1.0.0-alpha2.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\Microsoft.AspNet.SignalR.JS.1.0.0-alpha2\\content\\Scripts\\jquery.signalR-1.0.0-alpha2.min.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\Microsoft.jQuery.Unobtrusive.Ajax.2.0.20710.0\\Content\\Scripts\\jquery.unobtrusive-ajax.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\Microsoft.jQuery.Unobtrusive.Ajax.2.0.20710.0\\Content\\Scripts\\jquery.unobtrusive-ajax.min.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\Microsoft.jQuery.Unobtrusive.Validation.2.0.20710.0\\Content\\Scripts\\jquery.validate.unobtrusive.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\Microsoft.jQuery.Unobtrusive.Validation.2.0.20710.0\\Content\\Scripts\\jquery.validate.unobtrusive.min.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\packages\\Modernizr.2.5.3\\Content\\Scripts\\modernizr-2.5.3.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\SecureSessionModule\\Properties\\AssemblyInfo.cs
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Properties\\AssemblyInfo.cs
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\jquery-1.8.0.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\jquery-ui-1.8.22.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\jquery-ui-1.8.22.min.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\jquery.cookie.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\jquery.mobile-1.1.1.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\jquery.signalR-1.0.0-alpha2.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\jquery.signalR-1.0.0-alpha2.min.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\jquery.unobtrusive-ajax.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\jquery.unobtrusive-ajax.min.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\jquery.validate-vsdoc.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\jquery.validate.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\jquery.validate.min.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\jquery.validate.unobtrusive.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\jquery.validate.unobtrusive.min.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\knockout.activity.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\modernizr-2.5.3.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\datebox\\jqm-datebox-1.1.0.comp.calbox.min.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\datebox\\jqm-datebox-1.1.0.comp.datebox.min.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\datebox\\jqm-datebox-1.1.0.core.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\datebox\\jqm-datebox-1.1.0.mode.calbox.min.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed\\Scripts\\datebox\\jqm-datebox-1.1.0.mode.datebox.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed.Common\\Properties\\AssemblyInfo.cs
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed.DataAccess\\Properties\\AssemblyInfo.cs
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed.Mailgrabber\\Properties\\AssemblyInfo.cs
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed.Outlook\\Properties\\AssemblyInfo.cs
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed.RoutingHelper\\Properties\\AssemblyInfo.cs
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\shareddeploy\\shareddeploy\\ShareDeployed\\ShareDeployed.Test\\Properties\\AssemblyInfo.cs
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\trailblazer\\Scripts\\bootstrap.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\trailblazer\\Scripts\\bootstrap.min.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\trailblazer\\Scripts\\jquery-1.4.1-vsdoc.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\trailblazer\\Scripts\\jquery-1.4.1.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\trailblazer\\Scripts\\jquery-1.4.1.min.js
+Found " Copyright " in   D:\\Office\\SITA\\PFM\\trailblazer\\Scripts\\jquery-1.9.1.js
+Found " Copyright " in   D:\\Office\\SVN\\FR\\AIRBUS\\CustomRules\\delivery_package\\tags\\AirbusCustomMetrics_700_V1.3_2010-11-26\\configuration\\Metrics\\Configuration\\MetricsName.xml
+Found " Copyright " in   D:\\Office\\SVN\\FR\\AIRBUS\\CustomRules\\delivery_package\\tags\\AirbusCustomMetrics_700_V1.3_2010-11-26\\metricsADG\\AdgMetrics_Airbus_0.90 _CAST V700.xml
+Found " Copyright " in   D:\\Office\\SVN\\FR\\AIRBUS\\CustomRules\\delivery_package\\tags\\AirbusCustomMetrics_700_V1.3_2010-11-26\\metricsXML\\CastMetrics.xml
+Found " Copyright " in   D:\\Office\\SVN\\FR\\AIRBUS\\CustomRules\\delivery_package\\tags\\AirbusCustomMetrics_V1.2_2008-10-22\\configuration\\Metrics\\Configuration\\MetricsName.xml
+Found " Copyright " in   D:\\Office\\SVN\\FR\\AIRBUS\\CustomRules\\delivery_package\\tags\\AirbusCustomMetrics_V1.2_2008-10-22\\metricsADG\\AdgMetrics.xml
+Found " Copyright " in   D:\\Office\\SVN\\FR\\AIRBUS\\CustomRules\\delivery_package\\tags\\AirbusCustomMetrics_V1.2_2008-10-22\\metricsXML\\CastMetrics.xml
+Found " Copyright " in   D:\\Office\\SVN\\FR\\AIRBUS\\CustomRules\\delivery_package\\trunk\\configuration\\Metrics\\Configuration\\MetricsName.xml
+Found " Copyright " in   D:\\Office\\SVN\\FR\\AIRBUS\\CustomRules\\delivery_package\\trunk\\metricsADG\\AdgMetrics.xml
+Found " Copyright " in   D:\\Office\\SVN\\FR\\AIRBUS\\CustomRules\\delivery_package\\trunk\\metricsADG\\AdgMetrics_Airbus_0.90 _CAST V700.xml
+Found " Copyright " in   D:\\Office\\SVN\\FR\\AIRBUS\\CustomRules\\delivery_package\\trunk\\metricsXML\\CastMetrics.xml
+Found " This class was automatically generated " in   D:\\Office\\Tools\\.idea\\workspace.xml
+Found " This class was automatically generated " in   D:\\Office\\Tools\\GeneratedCode\\Testing1.java
+Found " This file was auto-generated from " in   D:\\Office\\Tools\\GeneratedCode\\Testing3.java
+Found " Copyright " in   D:\\Office\\Tools\\GeneratedCode\\Testing3.java
+Found " Copyright " in   D:\\Office\\Tools\\GeneratedCode\\Testing5.java
+Found " Copyright " in   D:\\Office\\Training\\8.2\\Training\\Extensions\\com.castsoftware.html5.1.1.0-funcrel\\javascript_parser\\light_parser\\docs\\build\\_static\\doctools.js
+Found " Copyright " in   D:\\Office\\Training\\8.2\\Training\\Extensions\\com.castsoftware.html5.1.1.0-funcrel\\javascript_parser\\light_parser\\docs\\build\\_static\\searchtools.js
+Found " Copyright " in   D:\\Office\\Training\\8.2\\Training\\Extensions\\com.castsoftware.html5.1.1.0-funcrel\\javascript_parser\\light_parser\\docs\\build\\_static\\sidebar.js
+Found " Copyright " in   D:\\Office\\Training\\8.2\\Training\\Extensions\\com.castsoftware.html5.1.1.0-funcrel\\javascript_parser\\light_parser\\docs\\build\\_static\\websupport.js
+Found " Copyright " in   D:\\Office\\Training\\8.2\\Training\\Extensions\\com.castsoftware.sqlanalyzer.1.0.0-beta1\\pympler\\templates\\jquery.flot.min.js
+Found " Copyright " in   D:\\Office\\Training\\8.2\\Training\\Extensions\\com.castsoftware.sqlanalyzer.1.0.0-beta1\\pympler\\templates\\jquery.flot.stack.min.js
+Found " Copyright " in   D:\\Office\\Training\\DataFlow\\9. Training\\Source_Code_SDF_JEE_TRAIN_v2.1.0\\JEE\\build\\classes\\ESAPI.properties
+Found " Copyright " in   D:\\Office\\Training\\DataFlow\\9. Training\\Source_Code_SDF_JEE_TRAIN_v2.1.0\\JEE\\src\\ESAPI.properties
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_DELIVERED\\Spring3_v1\\WebContent\\js\\bootstrap-carousel.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_DELIVERED\\Spring3_v1\\WebContent\\js\\bootstrap-collapse.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_DELIVERED\\Spring3_v1\\WebContent\\js\\bootstrap-dropdown.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_DELIVERED\\Spring3_v1\\WebContent\\js\\bootstrap-popover.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_DELIVERED\\Spring3_v1\\WebContent\\js\\bootstrap-tooltip.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_DELIVERED\\Spring3_v1\\WebContent\\js\\bootstrap-transition.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_DELIVERED\\Spring3_v1\\WebContent\\js\\bootstrap.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_DELIVERED\\Spring3_v1\\WebContent\\js\\bootstrap.min.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_DELIVERED\\Spring3_v1\\WebContent\\js\\jquery.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_STAGING\\V1\\Source\\WebContent\\js\\bootstrap-carousel.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_STAGING\\V1\\Source\\WebContent\\js\\bootstrap-collapse.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_STAGING\\V1\\Source\\WebContent\\js\\bootstrap-dropdown.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_STAGING\\V1\\Source\\WebContent\\js\\bootstrap-popover.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_STAGING\\V1\\Source\\WebContent\\js\\bootstrap-tooltip.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_STAGING\\V1\\Source\\WebContent\\js\\bootstrap-transition.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_STAGING\\V1\\Source\\WebContent\\js\\bootstrap.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_STAGING\\V1\\Source\\WebContent\\js\\bootstrap.min.js
+Found " Copyright " in   D:\\Office\\Training\\R\\SOURCE_STAGING\\V1\\Source\\WebContent\\js\\jquery.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v1\\WebContent\\js\\bootstrap-carousel.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v1\\WebContent\\js\\bootstrap-collapse.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v1\\WebContent\\js\\bootstrap-dropdown.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v1\\WebContent\\js\\bootstrap-popover.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v1\\WebContent\\js\\bootstrap-tooltip.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v1\\WebContent\\js\\bootstrap-transition.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v1\\WebContent\\js\\bootstrap.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v1\\WebContent\\js\\bootstrap.min.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v1\\WebContent\\js\\jquery.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v2\\WebContent\\js\\bootstrap-carousel.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v2\\WebContent\\js\\bootstrap-collapse.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v2\\WebContent\\js\\bootstrap-dropdown.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v2\\WebContent\\js\\bootstrap-popover.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v2\\WebContent\\js\\bootstrap-tooltip.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v2\\WebContent\\js\\bootstrap-transition.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v2\\WebContent\\js\\bootstrap.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v2\\WebContent\\js\\bootstrap.min.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v2\\WebContent\\js\\jquery.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v3\\WebContent\\js\\bootstrap-carousel.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v3\\WebContent\\js\\bootstrap-collapse.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v3\\WebContent\\js\\bootstrap-dropdown.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v3\\WebContent\\js\\bootstrap-popover.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v3\\WebContent\\js\\bootstrap-tooltip.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v3\\WebContent\\js\\bootstrap-transition.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v3\\WebContent\\js\\bootstrap.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v3\\WebContent\\js\\bootstrap.min.js
+Found " Copyright " in   D:\\Office\\Training\\Spring3\\Spring3\\Actual_code\\Spring3\\Spring3_v3\\WebContent\\js\\jquery.js
+TOTAL occurences : 
+Text               count
+This file was auto-generated from              1
+This class was automatically generated              2
+Copyright            122
+
+
+
+
+
+TEST FOLDERS : 
+
+D:\Office\LeadTasks\test
+
+D:\Office\SITA\PFM\routemagic\routemagic\src\RouteDebuggerDemoWeb\Views\Test
+
+D:\Office\SITA\PFM\shareddeploy\shareddeploy\ShareDeployed\ShareDeployed.Test
+
+D:\Office\Training\DataFlow\9. Training\Source_Code_SDF_JEE_TRAIN_v2.1.0\JEE\build\classes\eu\unicreditgroup\appsec\cast\test
+
+D:\Office\Training\DataFlow\9. Training\Source_Code_SDF_JEE_TRAIN_v2.1.0\JEE\src\eu\unicreditgroup\appsec\cast\test
+
+
+
+
+
+
+TARGET FOLDERS : 
+
+D:\Office\XLCatlin\abctarget
+
+D:\Office\XLCatlin\target
+
+
+
+
+
+
+MOCK FOLDERS : 
+
+D:\Office\XLCatlin\defmockxyz
+
+
+
+
+
+

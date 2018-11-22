@@ -1,0 +1,3 @@
+abc <%=packageName%>
+def
+import <%=packageName%>

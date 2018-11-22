@@ -1,0 +1,472 @@
+package eu.unicreditgroup.appsec.cast.test;
+
+This class was automatically generated
+
+import java.io.Closeable;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.net.URI;
+import java.net.URLEncoder;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.owasp.esapi.ESAPI;
+import org.owasp.esapi.codecs.WindowsCodec;
+
+@WebServlet(urlPatterns={"/admin/download"})
+public class PathTraversal_CAST_TC_by_method extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	private static final String DIR = "c:/temp/";
+
+	// File: read, write, delete
+	protected void doGet_file1a_KO_001(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file1a(req.getParameter("file"))); // issue
+	}
+
+	protected void doGet_file1a_OK_001(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file1a("c:/temp/data.html")); // no issue
+	}	
+	
+	protected void doGet_file1b_KO_002(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file1b(req.getParameter("file"))); // issue
+	}
+	
+	protected void doGet_file1b_OK_002(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file1b("../data.html")); // no issue
+	}
+	
+	protected void doGet_file1c_OK_003(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file1c(req.getParameter("file"))); // no issue
+	}
+	
+	protected void doGet_file1c_OK_004(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file1c(req.getParameter("file"))); // no issue
+	}
+	
+	protected void doGet_file1d_OK_005(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file1d(req.getParameter("file"))); // no issue
+	}
+	
+	// file2.
+	protected void doGet_file2a_KO_003(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file2a(req.getParameter("file"))); // issue
+	}
+	protected void doGet_file2a_OK_006(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file2a("c:/temp/data.html")); // no issue
+	}
+	protected void doGet_file2b_KO_004(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file2b(req.getParameter("file"))); // issue
+	}		
+	protected void doGet_file2b_OK_007(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file2b("../data.html")); // no issue
+	}		
+	protected void doGet_file2c_OK_008(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file2c(req.getParameter("file"))); // issue -> CAST 08/31 : do not agree, filename is sanitized in file2c: no issue
+	}			
+	protected void doGet_file2d_OK_009(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file2d(req.getParameter("file"))); // issue -> CAST 08/31 : do not agree, filename is sanitized in file2d: no issue
+	}		
+		
+	// file3.
+	protected void doGet_file3a_KO_005(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file3a(req.getParameter("dir"), req.getParameter("file"))); // issue
+	}		
+	protected void doGet_file3a_KO_006(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file3a(DIR, req.getParameter("file"))); // issue
+	}
+	protected void doGet_file3a_KO_007(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file3a(req.getParameter("dir"), "data.html")); // issue
+	}	
+	protected void doGet_file3a_OK_010(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file3a(DIR, "data.html")); // no issue
+	}		
+	protected void doGet_file3b_KO_008(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file3b(req.getParameter("dir"), req.getParameter("file"))); // issue
+	}			
+	protected void doGet_file3b_KO_009(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file3b(DIR, req.getParameter("file"))); // no issue	-> CAST 08/31 : do not agree, only dir is sanitized in file3b, not filename : issue
+	}				
+	protected void doGet_file3b_OK_011(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file3b(req.getParameter("dir"), "data.html")); // issue -> CAST 08/31 : do not agree, dir is sanitized in file3b, and filename is static : no issue
+	}			
+	protected void doGet_file3c_KO_010(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file3c(req.getParameter("dir"), req.getParameter("file"))); // issue
+	}				
+	protected void doGet_file3c_OK_012(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file3c(DIR, req.getParameter("file"))); // issue	-> CAST 08/31 : do not agree, filename is sanitized in file3c, DIR is static : no issue.
+	}		
+	protected void doGet_file3c_KO_011(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file3c(req.getParameter("dir"), "data.html")); // no issue	-> CAST 08/31 : do not agree, only filename is sanitized in file3c, dir is not : issue.
+	}	
+	protected void doGet_file3d_OK_013(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file3d(req.getParameter("dir"), req.getParameter("file"))); // no issue
+	}
+	protected void doGet_file3d_OK_014(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file3d(DIR, req.getParameter("file"))); // no issue
+	}			
+	protected void doGet_file3d_OK_015(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file3d(req.getParameter("dir"), "data.html")); // no issue
+	}				
+		
+	// file4.
+	protected void doGet_file4a_KO_012(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file4a(new File(req.getParameter("dir")), req.getParameter("file"))); // issue
+	}	
+	protected void doGet_file4a_KO_013(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file4a(new File(DIR), req.getParameter("file"))); // issue
+	}			
+	protected void doGet_file4a_KO_014(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file4a(new File(req.getParameter("dir")), "data.html")); // issue
+	}		
+	protected void doGet_file4a_OK_016(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file4a(new File(DIR), "data.html")); // no issue
+	}		
+	protected void doGet_file4a_KO_015(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file4b(new File(req.getParameter("dir")), req.getParameter("file"))); // issue
+	}	
+	protected void doGet_file4b_OK_017(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file4b(new File(DIR), req.getParameter("file"))); // no issue
+	}			
+	protected void doGet_file4b_KO_016(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file4b(new File(req.getParameter("dir")), "data.html")); // issue
+	}				
+		
+	// file5.
+	protected void doGet_file5_KO_017(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file5(URI.create(req.getParameter("uri")))); // issue
+	}	
+	protected void doGet_file5_OK_018(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file5(URI.create(URLEncoder.encode(req.getParameter("uri"), "UTF-8")))); // no issue
+	}			
+	protected void doGet_file5_OK_019(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter writer = resp.getWriter();
+		writer.write(file5(URI.create("file://c:/temp/data.html"))); // no issue
+	}			
+
+
+	
+	
+	private void close(Closeable c) {
+		if(c != null) {
+			try {
+				c.close();
+			} catch(Exception exc) {
+				// ignore
+			}
+		}
+	}
+	
+	private String file1a(String fileName) {
+		File f = new File(fileName);
+		if(f.exists()) {
+			int len = (int)f.length();
+			byte[] buf = new byte[len];
+			FileInputStream fis = null;
+			try {
+				fis = new FileInputStream(f);
+				fis.read(buf);
+				return new String(buf);
+			} catch(IOException exc) {
+				return null;
+			} finally {
+				close(fis);
+			}
+		}
+		return null;
+	}
+
+	private String file1b(String fileName) {
+		File f = new File(DIR + fileName);
+		if(f.exists()) {
+			int len = (int)f.length();
+			byte[] buf = new byte[len];
+			FileInputStream fis = null;
+			try {
+				fis = new FileInputStream(f);
+				fis.read(buf);
+				return new String(buf);
+			} catch(IOException exc) {
+				return null;
+			} finally {
+				close(fis);
+			}
+		}
+		return null;
+	}
+
+	private String file1c(String fileName) {
+		File f = new File(ESAPI.encoder().encodeForOS(new WindowsCodec(), fileName));
+		if(f.exists()) {
+			int len = (int)f.length();
+			byte[] buf = new byte[len];
+			FileInputStream fis = null;
+			try {
+				fis = new FileInputStream(f);
+				fis.read(buf);
+				return new String(buf);
+			} catch(IOException exc) {
+				return null;
+			} finally {
+				close(fis);
+			}
+		}
+		return null;
+	}
+
+	private String file1d(String fileName) {
+		File f = new File(ESAPI.encoder().encodeForOS(new WindowsCodec(), DIR + fileName));
+		if(f.exists()) {
+			int len = (int)f.length();
+			byte[] buf = new byte[len];
+			FileInputStream fis = null;
+			try {
+				fis = new FileInputStream(f);
+				fis.read(buf);
+				return new String(buf);
+			} catch(IOException exc) {
+				return null;
+			} finally {
+				close(fis);
+			}
+		}
+		return null;
+	}
+
+	private String file2a(String fileName) {
+		FileInputStream fis = null;
+
+		try {
+			fis = new FileInputStream(fileName);
+			int len = fis.available();
+			byte[] buf = new byte[len];
+			fis.read(buf);
+			return new String(buf);
+		} catch(IOException exc) {
+			return null;
+		} finally {
+			close(fis);
+		}
+	}
+
+	private String file2b(String fileName) {
+		FileInputStream fis = null;
+
+		try {
+			fis = new FileInputStream(DIR + fileName);
+			int len = fis.available();
+			byte[] buf = new byte[len];
+			fis.read(buf);
+			return new String(buf);
+		} catch(IOException exc) {
+			return null;
+		} finally {
+			close(fis);
+		}
+	}
+
+	private String file2c(String fileName) {
+		FileInputStream fis = null;
+
+		try {
+			fis = new FileInputStream(ESAPI.encoder().encodeForOS(new WindowsCodec(), fileName));
+			int len = fis.available();
+			byte[] buf = new byte[len];
+			fis.read(buf);
+			return new String(buf);
+		} catch(IOException exc) {
+			return null;
+		} finally {
+			close(fis);
+		}
+	}
+
+	private String file2d(String fileName) {
+		FileInputStream fis = null;
+
+		try {
+			fis = new FileInputStream(ESAPI.encoder().encodeForOS(new WindowsCodec(), DIR + fileName));
+			int len = fis.available();
+			byte[] buf = new byte[len];
+			fis.read(buf);
+			return new String(buf);
+		} catch(IOException exc) {
+			return null;
+		} finally {
+			close(fis);
+		}
+	}
+
+	private String file3a(String dir, String fileName) {
+		File f = new File(dir, fileName);
+		if(f.exists()) {
+			int len = (int)f.length();
+			byte[] buf = new byte[len];
+			FileInputStream fis = null;
+			try {
+				fis = new FileInputStream(f);
+				fis.read(buf);
+				return new String(buf);
+			} catch(IOException exc) {
+				return null;
+			} finally {
+				close(fis);
+			}
+		}
+		return null;
+	}
+
+	private String file3b(String dir, String fileName) {
+		File f = new File(ESAPI.encoder().encodeForOS(new WindowsCodec(), dir), fileName);
+		if(f.exists()) {
+			int len = (int)f.length();
+			byte[] buf = new byte[len];
+			FileInputStream fis = null;
+			try {
+				fis = new FileInputStream(f);
+				fis.read(buf);
+				return new String(buf);
+			} catch(IOException exc) {
+				return null;
+			} finally {
+				close(fis);
+			}
+		}
+		return null;
+	}
+
+	private String file3c(String dir, String fileName) {
+		File f = new File(dir, ESAPI.encoder().encodeForOS(new WindowsCodec(), fileName));
+		if(f.exists()) {
+			int len = (int)f.length();
+			byte[] buf = new byte[len];
+			FileInputStream fis = null;
+			try {
+				fis = new FileInputStream(f);
+				fis.read(buf);
+				return new String(buf);
+			} catch(IOException exc) {
+				return null;
+			} finally {
+				close(fis);
+			}
+		}
+		return null;
+	}
+
+	private String file3d(String dir, String fileName) {
+		File f = new File(ESAPI.encoder().encodeForOS(new WindowsCodec(), dir), ESAPI.encoder().encodeForOS(new WindowsCodec(), fileName));
+		if(f.exists()) {
+			int len = (int)f.length();
+			byte[] buf = new byte[len];
+			FileInputStream fis = null;
+			try {
+				fis = new FileInputStream(f);
+				fis.read(buf);
+				return new String(buf);
+			} catch(IOException exc) {
+				return null;
+			} finally {
+				close(fis);
+			}
+		}
+		return null;
+	}
+
+	private String file4a(File dir, String fileName) {
+		File f = new File(dir, fileName);
+		if(f.exists()) {
+			int len = (int)f.length();
+			byte[] buf = new byte[len];
+			FileInputStream fis = null;
+			try {
+				fis = new FileInputStream(f);
+				fis.read(buf);
+				return new String(buf);
+			} catch(IOException exc) {
+				return null;
+			} finally {
+				close(fis);
+			}
+		}
+		return null;
+	}
+
+	private String file4b(File dir, String fileName) {
+		File f = new File(dir, ESAPI.encoder().encodeForOS(new WindowsCodec(), fileName));
+		if(f.exists()) {
+			int len = (int)f.length();
+			byte[] buf = new byte[len];
+			FileInputStream fis = null;
+			try {
+				fis = new FileInputStream(f);
+				fis.read(buf);
+				return new String(buf);
+			} catch(IOException exc) {
+				return null;
+			} finally {
+				close(fis);
+			}
+		}
+		return null;
+	}
+
+	private String file5(URI uri) {
+		File f = new File(uri);
+		if(f.exists()) {
+			int len = (int)f.length();
+			byte[] buf = new byte[len];
+			FileInputStream fis = null;
+			try {
+				fis = new FileInputStream(f);
+				fis.read(buf);
+				return new String(buf);
+			} catch(IOException exc) {
+				return null;
+			} finally {
+				close(fis);
+			}
+		}
+		return null;
+	}
+}
